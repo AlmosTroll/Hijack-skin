@@ -1,0 +1,553 @@
+#header {
+  background-image: url("https://64.media.tumblr.com/cb4193e1476ddb5156094df03ab27bda/048109be49f4e59f-75/s2048x3072/f1b2501dff7bc6917a09dbfbc935bfc78edd9ec8.png");
+  background-repeat: no-repeat;
+  background-position: center 40%;
+  background-size: cover;
+  min-height: 160px;
+  box-shadow: 0 0 4px #16202a;
+}
+
+#header {
+  position: relative;
+}
+
+#header .heading a {
+  color: #64dfdf !important;
+  margin-left: 0;
+  font-size: 0 !important;
+}
+
+#header .heading a::before {
+  content: "Ao3 Berk!";
+  font-size: 2.2rem !important;
+  color: #64dfdf !important;
+  font-family: "Bradley Hand", "Segoe Script", Platino, serif;
+  font-weight: bold;
+  text-shadow: 0 0 8px #64dfdf, 0 0 15px #48cae4;
+  display: inline-block;
+}
+
+#header .primary {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+#outer.wrapper {
+  background: #e0fbfc;
+  background-image: url("https://64.media.tumblr.com/e8aff556fc55e354266dca4446027131/415caa03a2d1a4c4-93/s2048x3072/317556cc0714b9feaeefe9f66055b81597c1fe03.png");
+  background-size: 50% auto;
+  background-repeat: repeat;
+  background-position: center top;
+  color: #16202a;
+}
+
+#inner.wrapper {
+  margin: 0em 4%;
+}
+
+form.verbose legend,
+.verbose form legend {
+  height: auto;
+  width: auto;
+  font-size: 100%;
+  background: #e0fbfc;
+  border: 1px solid #457b9d;
+  border-radius: 5px;
+  padding: 0.5em;
+  box-shadow: none;
+  opacity: 1;
+}
+
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  display: block;
+  background: #e0fbfc;
+  border: 1px solid #457b9d;
+  border-radius: 5px;
+  margin: 0.643em;
+  padding: 0.643em;
+  box-shadow: none;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  clear: right;
+  background: #e0fbfc;
+  border: 0.5px solid #457b9d;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0.643em auto;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.blurb h4 a:visited {
+  color: #52b788 !important;
+}
+
+form dd.required {
+  color: #e63946;
+}
+
+#main,
+#inner.wrapper,
+.listbox .index,
+.work.own,
+.thread .even {
+  background: #e0fbfc;
+}
+
+#header .heading {
+  height: 18em;
+  margin-left: 0;
+  position: relative;
+  left: -40px;
+}
+
+#header .primary {
+  background: linear-gradient(90deg, #a8dadc 0%, #64dfdf 50%, #e63946 100%);
+}
+
+#header .logo,
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading a {
+  color: #1d3557;
+  margin-left: 0;
+}
+
+.event .userstuff {
+  background: #a8dadc;
+  border: 1px solid #e63946;
+}
+
+.filtering .filters #leave_filters {
+  background: #e0fbfc;
+  color: #16202a;
+}
+
+#main a {
+  color: #1d3557;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #16202a !important;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #a8dadc;
+}
+
+span.submit.actions input.button {
+  display: none;
+  box-shadow: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #edf2f4;
+  color: #16202a !important;
+  border: 1px solid #457b9d;
+  box-shadow: none;
+}
+
+#header #search .text {
+  width: 7em;
+}
+
+.splash .browse li a::before {
+  color: #e63946;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.comment {
+  color: #16202a;
+  background: #a8dadc;
+  border: none;
+  box-shadow: none;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #7f1d1d;
+  font-weight: bold;
+}
+
+.splash .module h3 {
+  color: #1d3557;
+  border-bottom: 2px solid #e63946;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  color: #1d3557;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+  background: #a8dadc;
+}
+
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #1d3557;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #edf2f4;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #e63946;
+}
+
+#footer {
+  background: linear-gradient(90deg, #a8dadc 0%, #48cae4 55%, #e63946 100%);
+  color: #16202a;
+  border-top: 3px solid #e63946;
+}
+
+#footer a,
+#footer .heading {
+  color: #16202a;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.actions input:hover,
+.action:focus,
+.actions button,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link {
+  background: linear-gradient(135deg, #a8dadc 0%, #64dfdf 70%, #ff6b35 100%);
+  border: 0.5px solid #457b9d;
+  color: #16202a;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.current,
+#dashboard .current {
+  background: #a8dadc !important;
+  color: #e63946 !important;
+}
+
+#dashboard a:hover {
+  background: #a8dadc;
+  color: #e63946 !important;
+}
+
+#dashboard a {
+  color: #1d3557;
+}
+
+dl.meta {
+  border: none;
+  box-shadow: none;
+}
+
+.listbox .index {
+  background: #e0fbfc;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #e0fbfc;
+}
+
+#header .button {
+  border: 1px solid #457b9d;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+textarea,
+span.symbol.question,
+.own {
+  background: #edf2f4 !important;
+  color: #16202a !important;
+  box-shadow: none;
+}
+
+select {
+  box-shadow: none;
+  border: 1px solid #457b9d;
+  border-radius: 5px;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #16202a;
+}
+
+span.delete {
+  background: #e63946;
+}
+
+span.delete a {
+  color: #edf2f4;
+  font-weight: bold;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #e0fbfc;
+  color: #16202a;
+}
+
+li.blurb {
+  border: 0.5px solid #e63946;
+  border-radius: 5px;
+}
+
+.draft {
+  background: #e0fbfc;
+  color: #16202a;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+#header h2,
+.draft .wrapper {
+  background: #a8dadc;
+  border: 1px solid #457b9d;
+}
+
+#stat_chart svg {
+  filter: invert(90%) sepia(150%) brightness(60%) hue-rotate(60deg) saturate(120%);
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #e0fbfc;
+}
+
+#modal,
+span.replied {
+  background: #e0fbfc;
+  color: #16202a;
+  border: hidden;
+}
+
+.thread .even {
+  background: #a8dadc;
+}
+
+.unread {
+  background: #80ffdb;
+}
+
+span.unread {
+  background: #a8dadc;
+  color: #16202a;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  background: none;
+  color: #7f1d1d !important;
+  font-weight: bold;
+}
+
+#main a:hover {
+  background: #a8dadc;
+  color: #e63946;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #a8dadc;
+}
+
+#header #search .text,
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #edf2f4 !important;
+  color: #16202a !important;
+  border: 1px solid #457b9d;
+  box-shadow: none;
+}
+
+.autocomplete input,
+.autocomplete .dropdown ul li {
+  display: block;
+  min-width: 10em;
+  border-radius: 5px;
+  max-width: 14.5em;
+}
+
+input[type=text] {
+  min-width: 10em;
+  border-radius: 5px;
+  max-width: 14.5em;
+}
+
+h4.heading.byline {
+  background: #e0fbfc;
+  color: #1d3557;
+}
+
+#header form.search input[type="submit"] {
+  border: 1px solid #e63946;
+}
+
+#dashboard {
+  border: none;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+input:focus,
+textarea:focus,
+li.relationships a,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+#dashboard a:hover,
+th,
+#dashboard .secondary,
+.secondary,
+.work.navigation .download,
+.javascript .work.navigation .download .secondary,
+.thread .even,
+.ui-datepicker tr:hover {
+  background: #a8dadc;
+}
+
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header #search input:focus,
+#header #search input:hover,
+#dashboard a,
+#dashboard span,
+#dashboard .current,
+.heading,
+.group .heading,
+.filters dt a:hover {
+  color: #1d3557;
+}
+
+.filters dl,
+.filters dt {
+  padding: 0;
+  border: none;
+}
+
+body,
+.group,
+.group .group,
+.region,
+.flash,
+fieldset,
+fieldset fieldset ul,
+form dl,
+textarea,
+#main .verbose legend,
+.verbose fieldset,
+.notice,
+ul.notes,
+input,
+textarea,
+table,
+th,
+td:hover,
+tr:hover,
+.symbol .question:hover,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.autocomplete .notice,
+.system .intro,
+.comment_error,
+.kudos_error,
+div.dynamic,
+.dynamic form,
+#ui-datepicker-div,
+.ui-datepicker table,
+.annotation {
+  box-shadow: none;
+}
+
+.dashboard > .group {
+  border: none;
+}
+
+.dashboard .group .group {
+  border: hidden !important;
+}
+
+#header .primary {
+  flex-wrap: wrap;
+}
+
+.filters .expander {
+  color: #e63946 !important;
+  font-weight: bold;
+}
+
+#dashboard.own {
+  background: transparent;
+  border-top: 15px solid #48cae4;
+  border-bottom: 15px solid #e63946;
+  opacity: 1.0;
+  border-radius: 0.25em;
+}
